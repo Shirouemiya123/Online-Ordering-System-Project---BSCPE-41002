@@ -1,0 +1,35 @@
+ORDIFY update: Admin Account Deletion + Cart Timers
+==================================================
+
+Included changes
+----------------
+1. Admin > Manage Accounts:
+   - Adds a Delete account button to each account card.
+   - Requires browser confirmation before submitting.
+   - Prevents deleting the currently signed-in administrator.
+   - Prevents deleting the last active administrator.
+   - Blocks hard deletion of accounts referenced by orders, reviews, or restaurants so business history is preserved.
+   - If the database rejects deletion due to another foreign-key dependency, the page shows a friendly message and recommends suspending the account.
+
+2. Customer cart:
+   - Displays elapsed time since the cart was started.
+   - Displays the time each item was first added and a live elapsed duration.
+   - Timestamps are stored in the PHP session and persist across refreshes.
+   - Does not automatically expire or clear carts.
+
+Install
+-------
+1. Back up your current project folder and MySQL database.
+2. Extract this ZIP.
+3. Copy the included ordify folder to your XAMPP htdocs location (for example C:\xampp\htdocs\ordify), merging/replacing files only after backup.
+4. Make sure your existing database has the Phase 2, Phase 3, and Phase 4 tables used by this project.
+5. Test with a non-critical account first.
+
+Validation
+----------
+PHP syntax checks passed for admin/accounts.php and customer/cart.php.
+The code has not been tested against your local live MySQL database.
+
+Security reminder
+-----------------
+The project's existing config.php contains EmailJS credentials. Since credentials were previously shared in files, rotate the EmailJS private key in the EmailJS dashboard and update config.php locally. Do not publish config.php or commit it to a public repository.

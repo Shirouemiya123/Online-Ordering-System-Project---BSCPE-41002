@@ -1,0 +1,10 @@
+[2026-10-21T18:11:58+02:00] To: jakelakal@gmail.com | Verify your ORDIFY account
+<h2>Welcome to ORDIFY, Benedict!</h2><p><a href='http://localhost/ordify/verify.php?token=3e84eb27adacc966b83a19d4bc1bc6d6c23e0bcd43a3e07b710cb2c36d4edacd'>Click here to verify your email</a></p>
+
+[2026-10-21T18:24:24+02:00] EmailJS FAILED (403) To: jakelakal@gmail.com | API access from non-browser environments is currently disabled.Enable this option in https://dashboard.emailjs.com/admin/account/security | link: http://localhost/ordify/verify.php?token=07d0a001ed997350bad0a318578072ee6171a4925c7f55084ab5334b07ae5171
+[2026-10-21T18:28:00+02:00] EmailJS FAILED (403) To: kyomiverse@gmail.com | API access from non-browser environments is currently disabled.Enable this option in https://dashboard.emailjs.com/admin/account/security | link: http://localhost/ordify/verify.php?token=40d3edc94cc3cab46b88008aa237abe52703d72ea9039f4bc4b3dcc1483d78e2
+[2026-10-21T18:31:27+02:00] EmailJS FAILED (403) To: kyomiverse@gmail.com | API access from non-browser environments is currently disabled.Enable this option in https://dashboard.emailjs.com/admin/account/security | link: http://localhost/ordify/verify.php?token=914ca61be3ff0194903506681c73b47cba9107e3f27deb7f98ddae9a4942c656
+[2026-10-21T18:43:44+02:00] EmailJS FAILED (400) To: jakelakal@gmail.com | The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates | link: http://localhost/ordify/verify.php?token=c77882fda39993a9eea0d3ccd28564704b21d0d5dffa2cbf855e62418bb9fcb6
+[2026-10-21T18:45:58+02:00] EmailJS FAILED (400) To: kyomiverse@gmail.com | The template ID not found. To find this ID, visit https://dashboard.emailjs.com/admin/templates | link: http://localhost/ordify/verify.php?token=2fee63cedbc0852a2778416f4eac22896bd04e714c41d8f1c706af98e7b235a0
+[2026-10-21T21:42:43+02:00] EmailJS FAILED (404) To: jakelakal@gmail.com | Account not found | link: http://localhost/ordify/verify.php?token=1308f6d29928fcde7812eb83bd6549967384cd965aaf28662cf5be2c53fcfbcf
+[2026-10-21T21:58:44+02:00] Order receipt sent successfully for order #2.
